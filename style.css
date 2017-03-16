@@ -1,0 +1,18 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;}
+
+body {
+  background-color: black;
+  color:white;
+  width: 800px;
+  margin:auto;
+}
+
+div {
+  font-family: 'Diplomata SC', cursive;
+  font-size: 80px;
+  
+  position: absolute;
+  top:45%;
+  
+}
