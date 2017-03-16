@@ -12,8 +12,8 @@ repeat(function(){
   var m = time.getMinutes()
   var s = time.getSeconds()
   h = (h < 10 ? "0" : "") + h
-  h = (h > 12) ? h - 12 : h
-  h = (h == 0) ? 12 : h
+  
+  h = (h == 0) ? 24 : h
   m = (m < 10 ? "0" : "") + m
   s = (s < 10 ? "0" : "") + s
   var hexTime = ("#" + h + m + s)
